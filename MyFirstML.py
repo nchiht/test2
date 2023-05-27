@@ -39,7 +39,7 @@ print(dataset.describe())
 print(dataset.groupby('class').size())
 #Data Visualization
     #Univariate Plots
-
+dataset.values()
 #dataset_list = dataset.values.tolist()
 #print(dataset_list)
     
